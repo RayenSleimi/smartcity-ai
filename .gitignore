@@ -221,3 +221,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Large and local datasets
+data/raw/
+data/processed/
+*.parquet
+
+# Secrets
+.env
+.env.*
